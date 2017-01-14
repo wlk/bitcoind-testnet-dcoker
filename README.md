@@ -1,5 +1,6 @@
 # bitcoind-testnet-docker
 
+This image is pushed to Docker Hub: https://hub.docker.com/r/wlkx/bitcoind-testnet/
 
 # Running
 
