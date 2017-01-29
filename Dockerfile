@@ -8,4 +8,4 @@ RUN add-apt-repository ppa:bitcoin/bitcoin \
  && apt clean \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-CMD ["/usr/bin/bitcoind","-testnet","-debug","-server","-datadir=/datadir","-rpcuser=user","-rpcpassword=password"]
+CMD ["/usr/bin/bitcoind","-testnet","-debug","-server","-rpcallowip=0.0.0.0/0.0.0.0","-datadir=/datadir","-rpcuser=user","-rpcpassword=password"]
